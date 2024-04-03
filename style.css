@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 300px; /* Tăng kích thước logo ngang 3 lần */
+    height: 90px; /* Tăng kích thước logo dọc 3 lần */
+    float: left;
+  }
+  
+  h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #0099ff;
+  }
+  
+  .form-input {
+    margin-bottom: 20px;
+  }
+  
+  #ma-sinh-vien {
+    width: 50px; /* Giảm chiều rộng xuống 80px */
+    height: 40px; /* Giảm chiều cao xuống 30px */
+    padding: 5px; /* Điều chỉnh padding để cân bằng nội dung */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  
+  
+  #btn-check-diem {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #f7941e; /* Màu cam pha vàng */
+    color: #fff;
+    border: 1px solid #f7941e;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  #ket-qua {
+    display: none;
+  }
+  
+  #ket-qua.active {
+    display: block;
+  }
+  
+  #ket-qua .chao-mung {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0099ff;
+  }
+  
+  #ket-qua .gpa,
+  #ket-qua .xep-loai {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0099ff;
+  }
+  
+  #btn-xem-chi-tiet {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f7941e; /* Màu cam pha vàng */
+    color: #fff;
+    border: 1px solid #f7941e;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  
+    .logo {
+      width: 50px;
+    }
+  }
+  
